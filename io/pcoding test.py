@@ -49,6 +49,6 @@
 
 top=int(input("윗변의 길이는?:"))
 bottom=int(input("밑변의 길이는?:"))
-height=int(input("높이는?:"))
+height=(input("높이는?:"))
 answer=((top+bottom)*5/2)
 print=("사다리꼴의 면적:"+ answer)
