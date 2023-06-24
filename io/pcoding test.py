@@ -47,8 +47,22 @@
 # phonenumber=input("전화번호를 입력t세요")
 # print("이름:%s\n주소:%s\n전화번호:%s" %(name,adress,phonenumber ))
 
-top=int(input("윗변의 길이는?:"))
-bottom=int(input("밑변의 길이는?:"))
-height=(input("높이는?:"))
-answer=((top+bottom)*5/2)
-print=("사다리꼴의 면적:"+ answer)
+# top = int(input("윗변의 길이는?:"))
+# bottom = int(input("밑변의 길이는?:"))
+# height = int(input("높이는?:"))
+# answer = (top + bottom) * height / 2
+# print("사다리꼴의 면적: %d"%(answer)  )
+
+# s = "가는 말이 고와야 오는 말이 곱다."
+# print(s[10:14]) 
+
+# kg = int(input("변환할 킬로그램은?"))
+# pound = (kg*2.204623)
+# ounce = (kg*35.273962)
+# print("pound:%.2f, ounce:%.2f" %(pound,ounce)) 
+
+age = int(input("나이"))
+if age<20:
+    print("미성년자")
+else:
+    print("tjddl")
