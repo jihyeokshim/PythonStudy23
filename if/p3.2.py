@@ -18,3 +18,7 @@ if x%2 == 0 or x%6 == 0:
     print("true")
 else:
     print("false")
+
+x = 25
+if not x%2 == 0:
+    print("True")

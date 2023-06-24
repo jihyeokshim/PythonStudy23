@@ -61,8 +61,3 @@
 # ounce = (kg*35.273962)
 # print("pound:%.2f, ounce:%.2f" %(pound,ounce)) 
 
-age = int(input("나이"))
-if age<20:
-    print("미성년자")
-else:
-    print("tjddl")
