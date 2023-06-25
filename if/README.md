@@ -62,3 +62,95 @@ if age>= 65:
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문장2
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
+
+#### else:
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문장A
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문장B
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
+
+#### ex.
+
+```python
+x = int(input("숫자를 입려하세요."))
+
+if x%2 == 0:
+   print("x는 짝수이다.")
+else:
+   print("x는 홀수이다.")
+```
+
+### if ~ elif~ else~ 구문:
+
+#### if 조건식:
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문장1
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문장2
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
+
+#### elif 조건식:
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문장A
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문장B
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
+
+#### else 조건식:
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문장i
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문장ii
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
+
+#### ex.
+
+```python
+number = int(input("숫자를 입력하세요."))
+
+if number > 0
+    print("%d는양수이다." %number)
+elif number < 0
+    print("%d는 음수이다." %number)
+else number == 0
+    print("%d는 0이다." %number)
+```
+
+### if문의 중첩
+
+#### if문의 중첩은 and 와 비슷하게 작용하지만, 두개이상의 변수가 있을때 쓰는양을 줄여준다.
+
+# 수학 90 국어90 A+
+
+# 수학 90 국어 80 A-
+
+# if score >= 90:
+
+# if score2 >=90:
+
+# grade = "A+"
+
+# elif score2 >= 80:
+
+# grade = "A-"
+
+# if score3 >= 90:
+
+# saf
+
+# else:
+
+# elif score >= 80:
+
+# if score2 >=90:
+
+# grade = "B+"
+
+# elif score2 >= 80:
+
+# grade = "B-"
