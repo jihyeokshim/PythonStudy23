@@ -125,32 +125,24 @@ else number == 0
 
 #### if문의 중첩은 and 와 비슷하게 작용하지만, 두개이상의 변수가 있을때 쓰는양을 줄여준다.
 
-# 수학 90 국어90 A+
+### if문 중첩:
 
-# 수학 90 국어 80 A-
+#### 수학 90 국어90 A+
 
-# if score >= 90:
+#### 수학 90 국어 80 A-
 
-# if score2 >=90:
+#### if score >= 90:
 
-# grade = "A+"
+#### if score2 >=90:
 
-# elif score2 >= 80:
+#### grade = "A+"
 
-# grade = "A-"
+#### elif score2 >= 80:
 
-# if score3 >= 90:
+#### grade = "A-"
 
-# saf
+### and 문
 
-# else:
+#### 수학 90 국어90 A+
 
-# elif score >= 80:
-
-# if score2 >=90:
-
-# grade = "B+"
-
-# elif score2 >= 80:
-
-# grade = "B-"
+#### 수학 90 국어 80 A-
