@@ -71,10 +71,44 @@ while cm <= 50:
 # S4-1
 num = 0
 count = 0
-while num <= 1000:
+while num < 1000:
     num = num + 1
     if num % 3 != 0:
         count = count + 1
         print(num, end=" ")
     if count % 10 == 0:
         print()
+
+# S4-2
+while True:
+    grade = int(input("성적을 입력하세요."))
+    if grade >= 90:
+        print("등급:수")
+    elif 90 > grade >= 80:
+        print("등급: 우")
+    elif 80 > grade >= 70:
+        print("등급: 미")
+    elif 70 > grade >= 60:
+        print("등급: 양")
+    elif 60 > grade:
+        print("등급: 가")
+    choice = input("계속하시겠습니까?(중단:q,계속:y)")
+    if choice == "y":
+        continue
+    if choice == "q":
+        break
+
+# S4-3
+num = int(input("시작 수를 입력해주세요."))
+num2 = int(input("끝수를 입력해주세요."))
+
+for i in range(num, num2 + 1):
+    flag = False
+
+    for b in range(2, i // 2):
+        if i % b == 0:
+            flag = True
+            break
+
+    if flag == False:
+        print(i, end=" ")
