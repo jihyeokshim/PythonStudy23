@@ -14,3 +14,5 @@ print(numbers[1][1])
 print(numbers[1][2])
 print(numbers[1][3])
 print(numbers[1][4])
+
+# 서식: 리스트명 = [[데이터,테이터,...],[데이터,데이터,...],...,[데이터,데이터,...]]
