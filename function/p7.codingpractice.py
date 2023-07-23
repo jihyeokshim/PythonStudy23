@@ -83,3 +83,38 @@ besu = int(input("구하고자 하는 배수를 입력하세요:"))
 total = sum_besu(besu)
 
 print("1~100 사이 %d의 배수의 합계: %d" % (besu, total))
+
+
+# C7-7
+def count_space(a):
+    count = 0
+
+    for x in a:
+        if x == " ":
+            count = count + 1
+    return count
+
+
+sentence = "Python is easy and powerful"
+
+print(sentence)
+num_space = count_space(sentence)
+print("-공백의 개수:", num_space)
+
+
+# C7-8
+def get_item(userid):
+    game_items = {"kim": "총", "lee": "대포", "choi": "전투기", "hwang": "병사"}
+
+    for key in game_items:
+        if userid == key:
+            item = game_items[key]
+
+    return item
+
+
+user1 = "kim"
+user2 = "hwang"
+
+print("%s의 게임 아이템: %s" % (user1, get_item(user1)))
+print("%s의 게임 아이템: %s" % (user2, get_item(user2)))
